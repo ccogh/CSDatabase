@@ -3,7 +3,7 @@ db = sqlite3.connect('McDonalds.db')
 
 
 
-tblForInsert = input("Which table would you like to insert data into?  Customers or Orders?")
+tblForInsert = input("Which table would you like to insert data into?  Customers, Orders, or Items?")
 
 if tblForInsert == "Customers":
       CustomerID = input("CustomerID: ")
